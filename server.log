@@ -1,0 +1,147 @@
+2014-03-27 11:30:45 [INFO] Starting minecraft server version 1.6.4
+2014-03-27 11:30:45 [INFO] MinecraftForge v
+2014-03-27 11:30:45 [INFO] 9.11.1.965
+2014-03-27 11:30:45 [INFO]  Initialized
+
+2014-03-27 11:30:46 [INFO] Replaced 111 ore recipies
+2014-03-27 11:30:54 [INFO] Loading properties
+2014-03-27 11:30:54 [WARNING] server.properties does not exist
+2014-03-27 11:30:54 [INFO] Generating new properties file
+2014-03-27 11:30:54 [INFO] Default game type: SURVIVAL
+2014-03-27 11:30:55 [INFO] This server is running MCPC+ version git-MCPC-Plus-jenkins-MCPC-Plus-164-251 (MC: 1.6.4) (Implementing API version 1.6.4-R2.1-SNAPSHOT)
+2014-03-27 11:30:55 [WARNING] Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (The system cannot find the file specified)
+2014-03-27 11:30:55 [WARNING] Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (The system cannot find the file specified)
+2014-03-27 11:30:55 [INFO] Generating keypair
+2014-03-27 11:30:56 [INFO] Starting Minecraft server on *:25565
+2014-03-27 11:30:57 [INFO] Preparing level "world"
+2014-03-27 11:30:57 [INFO] Registered command debug with permission node vanilla.command.debug
+2014-03-27 11:30:57 [INFO] Registered command spreadplayers with permission node vanilla.command.spreadplayers
+2014-03-27 11:30:57 [INFO] Registered command playsound with permission node vanilla.command.playsound
+2014-03-27 11:30:57 [INFO] Registered command scoreboard with permission node vanilla.command.scoreboard
+2014-03-27 11:30:58 [INFO] Preparing start region for level 0 (Dimension: 0, Seed: 5983236145087579963)
+2014-03-27 11:30:59 [INFO] Preparing spawn area: 6%
+2014-03-27 11:31:00 [INFO] Preparing spawn area: 11%
+2014-03-27 11:31:01 [INFO] Preparing spawn area: 19%
+2014-03-27 11:31:02 [INFO] Preparing spawn area: 31%
+2014-03-27 11:31:03 [INFO] Preparing spawn area: 37%
+2014-03-27 11:31:04 [INFO] Preparing spawn area: 41%
+2014-03-27 11:31:05 [INFO] Preparing spawn area: 46%
+2014-03-27 11:31:06 [INFO] Preparing spawn area: 50%
+2014-03-27 11:31:07 [INFO] Preparing spawn area: 56%
+2014-03-27 11:31:08 [INFO] Preparing spawn area: 61%
+2014-03-27 11:31:09 [INFO] Preparing spawn area: 67%
+2014-03-27 11:31:10 [INFO] Preparing spawn area: 74%
+2014-03-27 11:31:11 [INFO] Preparing spawn area: 80%
+2014-03-27 11:31:12 [INFO] Preparing spawn area: 86%
+2014-03-27 11:31:13 [INFO] Preparing spawn area: 91%
+2014-03-27 11:31:14 [INFO] Preparing spawn area: 97%
+2014-03-27 11:31:15 [INFO] Done (18.818s)! For help, type "help" or "?"
+2014-03-27 11:31:15 [INFO] Registered command forge with permission node net.minecraftforge.server.command.ForgeCommand
+2014-03-27 11:32:37 [INFO] CONSOLE: Stopping the server..[m
+2014-03-27 11:32:37 [INFO] Stopping server
+2014-03-27 11:32:37 [INFO] Saving players
+2014-03-27 11:32:37 [INFO] Saving worlds
+2014-03-27 11:32:37 [INFO] Saving chunks for level 'world'/Overworld
+2014-03-27 11:32:37 [WARNING] DSCT: socket closed
+2014-03-27 11:32:37 [INFO] Closing listening thread
+2014-03-27 11:32:39 [INFO] Saving chunks for level 'DIM1'/The End
+2014-03-27 11:32:39 [INFO] Saving chunks for level 'DIM-1'/Nether
+2014-03-27 11:32:39 [INFO] Stopping server
+2014-03-27 12:05:39 [INFO] Starting minecraft server version 1.6.4
+2014-03-27 12:05:39 [INFO] MinecraftForge v
+2014-03-27 12:05:39 [INFO] 9.11.1.965
+2014-03-27 12:05:39 [INFO]  Initialized
+
+2014-03-27 12:05:40 [INFO] Replaced 111 ore recipies
+2014-03-27 12:05:44 [SEVERE] java.lang.VerifyError: Bad type on operand stack
+Exception Details:
+  Location:
+    mod_MMM_MMMLib.sendToClient(Lnet/minecraft/network/ThreadLoginVerifier;[B)V @11: invokestatic
+  Reason:
+    Type 'net/minecraft/network/packet/Packet103SetSlot' (current frame, stack[1]) is not assignable to 'net/minecraft/network/packet/Packet12PlayerLook'
+  Current Frame:
+    bci: @11
+    flags: { }
+    locals: { 'net/minecraft/network/ThreadLoginVerifier', '[B' }
+    stack: { 'net/minecraft/network/ThreadLoginVerifier', 'net/minecraft/network/packet/Packet103SetSlot' }
+  Bytecode:
+    0000000: 2abb 00f7 5912 862b b701 31b8 0135 b1  
+
+2014-03-27 12:05:44 [SEVERE] 	at java.lang.Class.forName0(Native Method)
+2014-03-27 12:05:44 [SEVERE] 	at java.lang.Class.forName(Unknown Source)
+2014-03-27 12:05:44 [SEVERE] 	at cpw.mods.fml.common.ModClassLoader.loadBaseModClass(ModClassLoader.java:104)
+2014-03-27 12:05:44 [SEVERE] 	at cpw.mods.fml.common.modloader.ModLoaderModContainer.constructMod(ModLoaderModContainer.java:484)
+2014-03-27 12:05:44 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2014-03-27 12:05:44 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2014-03-27 12:05:44 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2014-03-27 12:05:44 [SEVERE] 	at java.lang.reflect.Method.invoke(Unknown Source)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+2014-03-27 12:05:44 [SEVERE] 	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:201)
+2014-03-27 12:05:44 [SEVERE] 	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:181)
+2014-03-27 12:05:44 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2014-03-27 12:05:44 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2014-03-27 12:05:44 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2014-03-27 12:05:44 [SEVERE] 	at java.lang.reflect.Method.invoke(Unknown Source)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+2014-03-27 12:05:44 [SEVERE] 	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+2014-03-27 12:05:44 [SEVERE] 	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:112)
+2014-03-27 12:05:44 [SEVERE] 	at cpw.mods.fml.common.Loader.loadMods(Loader.java:511)
+2014-03-27 12:05:44 [SEVERE] 	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+2014-03-27 12:05:44 [SEVERE] 	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:350)
+2014-03-27 12:05:44 [SEVERE] 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:92)
+2014-03-27 12:05:44 [SEVERE] 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:630)
+2014-03-27 12:05:44 [SEVERE] 	at net.minecraft.server.ThreadMinecraftServer.run(ThreadMinecraftServer.java:16)
+2014-03-27 12:05:44 [SEVERE] Encountered an unexpected exception VerifyError
+java.lang.VerifyError: Bad type on operand stack
+Exception Details:
+  Location:
+    mod_MMM_MMMLib.sendToClient(Lnet/minecraft/network/ThreadLoginVerifier;[B)V @11: invokestatic
+  Reason:
+    Type 'net/minecraft/network/packet/Packet103SetSlot' (current frame, stack[1]) is not assignable to 'net/minecraft/network/packet/Packet12PlayerLook'
+  Current Frame:
+    bci: @11
+    flags: { }
+    locals: { 'net/minecraft/network/ThreadLoginVerifier', '[B' }
+    stack: { 'net/minecraft/network/ThreadLoginVerifier', 'net/minecraft/network/packet/Packet103SetSlot' }
+  Bytecode:
+    0000000: 2abb 00f7 5912 862b b701 31b8 0135 b1  
+
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at cpw.mods.fml.common.ModClassLoader.loadBaseModClass(ModClassLoader.java:104)
+	at cpw.mods.fml.common.modloader.ModLoaderModContainer.constructMod(ModLoaderModContainer.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:201)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:112)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:511)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:350)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:92)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:630)
+	at net.minecraft.server.ThreadMinecraftServer.run(ThreadMinecraftServer.java:16)
+2014-03-27 12:05:44 [SEVERE] This crash report has been saved to: D:\Servers\MC_1.6.4\.\crash-reports\crash-2014-03-27_12.05.44-server.txt
